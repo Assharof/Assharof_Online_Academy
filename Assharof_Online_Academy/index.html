@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assharof Online Academy</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ✅ Sticky Navbar -->
+    <nav class="navbar">
+      <a href="index.html">
+        <img
+          src="/Images/assharof AcAdemy.png"
+          class="logo"
+          alt="Academy Logo"
+        />
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-window-close" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CURRICULUM</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <a href="#" class="login_btn">LOGIN/SIGN UP</a>
+        </ul>
+      </div>
+
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!-- ✅ HERO SECTION -->
+    <section class="header">
+      <div class="text-box">
+        <h1 class="hero-title">
+          Learning Arabic With Confidence <br />
+          From Beginner to <span id="h1_span">Fluent</span>
+        </h1>
+
+        <h2 class="hero_h2">
+          Study Arabic online with experienced instructors who guide you step by
+          step. Whether learning for faith, travel, career growth, or personal
+          development, we make the journey practical and achievable.
+        </h2>
+
+        <div class="hero-buttons">
+          <a href="#" class="hero-btn">Start Learning</a>
+
+          <a href="https://wa.link/89cmce" target="_blank" class="hero-btn">
+            Contact Us <i class="fa fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--learn section-->
+
+    <section class="learn">
+      <h2>Why Learn Arabic?</h2>
+      <p>
+        Arabic is spoken by over 400 million people worldwide and holds deep
+        historical, cultural, and religious significance. Learning it opens
+        doors that go far beyond language.
+      </p>
+
+      <div class="row">
+        <div class="learn-col">
+          <h3>Deepen Religious Understanding</h3>
+          <p>
+            Learning Arabic allows you to engage with classical texts more
+            directly, helping you understand meanings with greater clarity and
+            depth
+          </p>
+        </div>
+
+        <div class="learn-col">
+          <h3>Expand Career Opportunities</h3>
+          <p>
+            Arabic is widely used in global business, diplomacy, education, and
+            nonprofit work. Knowing the language can make your profile more
+            competitive and open doors to roles that require cross-cultural
+            communication.
+          </p>
+        </div>
+
+        <div class="learn-col">
+          <h3>Arabic for Qur’an Understanding</h3>
+          <p>
+            Learn the basics of Arabic to understand Qur’anic vocabulary,
+            phrases, and meanings. This course strengthens comprehension and
+            enriches the recitation and memorization experience.
+          </p>
+        </div>
+
+        <div class="learn-col">
+          <h3>Connect Across Cultures</h3>
+          <p>
+            Language helps you understand people beyond surface level. Arabic
+            gives you access to rich traditions, literature, and authentic
+            conversations that translations often cannot fully capture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Campus section
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>A Safe and Supportive Learning Environment</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="/Images/london.png" alt="London campus" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="/Images/newyork.png" alt="New York campus" />
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="/Images/london.png" alt="Washington campus" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--Programs section-->
+
+    <section class="programs">
+      <h2>Explore Our Arabic Programs</h2>
+      <p class="programs_p">
+        Choose from a wide range of carefully structured courses designed to
+        support every stage of your Arabic learning journey, from foundational
+        skills to advanced studies.
+      </p>
+
+      <div class="row">
+        <div class="programs-col">
+          <img src="/Images/library.png" alt="" />
+          <h3>Arabic for Beginners</h3>
+          <p>
+            Build a strong foundation by learning the Arabic alphabet, correct
+            pronunciation, basic reading skills, and everyday vocabulary.
+            Perfect for students starting from zero.
+          </p>
+        </div>
+
+        <div class="programs-col">
+          <img src="/Images/basketball.png" alt="" />
+          <h3>Nahw (Arabic Syntax)</h3>
+          <p>
+            Focus on sentence structure and grammatical rules that help you
+            understand how words function together. Essential for reading
+            advanced texts with accuracy.
+          </p>
+        </div>
+
+        <div class="programs-col">
+          <img src="/Images/cafeteria.png" alt="" />
+          <h3>Sarf (Morphology)</h3>
+          <p>
+            Study word formation and patterns to better understand verb changes,
+            derivatives, and meanings. This program strengthens both
+            comprehension and expression.
+          </p>
+        </div>
+
+        <div class="programs-col">
+          <img src="/Images/cafeteria.png" alt="" />
+          <h3>Balagha (Arabic Rhetoric)</h3>
+          <p>
+            Explore the beauty and depth of Arabic through rhetorical devices,
+            eloquence, and stylistic expression. Ideal for students who want to
+            appreciate higher-level texts.
+          </p>
+        </div>
+
+        <div class="programs-col">
+          <img src="/Images/cafeteria.png" alt="" />
+          <h3>Hadith Studies</h3>
+          <p>
+            Learn the language used in classical narrations while improving
+            reading precision and comprehension. Suitable for students seeking
+            deeper academic or personal study.
+          </p>
+        </div>
+
+        <div class="programs-col">
+          <img src="/Images/cafeteria.png" alt="" />
+          <h3>Reading & Writing Skills</h3>
+          <p>
+            Improve fluency through structured reading exercises and writing
+            practice that gradually increase in difficulty.
+          </p>
+        </div>
+
+        <div class="programs-col">
+          <img src="/Images/cafeteria.png" alt="" />
+          <h3>Advanced Arabic</h3>
+          <p>
+            Designed for progressing learners who want to refine grammar, expand
+            vocabulary, and communicate more naturally in academic or
+            professional contexts.
+          </p>
+        </div>
+
+        <div class="programs-col">
+          <img src="/Images/cafeteria.png" alt="" />
+          <h3>Conversation & Pronunciation</h3>
+          <p>
+            Practice guided dialogue, refine your accent, and speak with greater
+            confidence in real-life situations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--course section-->
+
+    <section class="course">
+      <h2 class="course_h2">Why Choose Assharof Online Academy?</h2>
+      <p class="course_p">
+        We are committed to creating a supportive and effective learning
+        environment where students feel guided, confident, and motivated at
+        every stage of their Arabic journey
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Native and Certified Teachers</h3>
+          <p>
+            Learn from qualified instructors who are fluent in Arabic and
+            experienced in teaching non-native speakers. They understand common
+            learning challenges and provide clear explanations that make
+            progress easier and more natural
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Fair and Transparent Pricing</h3>
+          <p>
+            We believe quality education should remain accessible. Our pricing
+            is completely free, with no hidden costs, so you can focus fully on
+            learning without unnecessary stress.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Balanced Live and Recorded Lessons</h3>
+          <p>
+            Enjoy the structure of live classes combined with the convenience of
+            recorded sessions. Attend in real time, ask questions, and revisit
+            lessons whenever you need extra review.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Flexible Scheduling</h3>
+          <p>
+            Language helps you understand people beyond surface level. Arabic
+            gives you access to rich traditions, literature, and authentic
+            conversations that translations often cannot fully capture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonial section-->
+
+    <section class="testimonials">
+      <h2>What Our Students and Parents Say</h2>
+      <p class="programs_p">
+        Our programs are designed to fit into busy lives. Whether you are a
+        student, a working professional, or managing multiple responsibilities,
+        you can choose class times that work for you without feeling
+        overwhelmed.
+      </p>
+
+      <div class="testimonial-grid">
+        <!-- Card 1 -->
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="/Images/banner2.jpg" alt="Parent testimonial" />
+            <div class="testimonial-info">
+              <h3>Amina S., Parent</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            "The teachers are patient and truly care about each student. My
+            daughter has grown in confidence and love for the Qur’an since
+            joining Hoor Wa Noor."
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="/Images/banner2.jpg" alt="Parent testimonial" />
+            <div class="testimonial-info">
+              <h3>Ibrahim M., Parent</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            "Hoor Wa Noor has made learning Qur’an enjoyable for my son. The
+            structured approach and guidance make all the difference."
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="/Images/banner2.jpg" alt="Student testimonial" />
+            <div class="testimonial-info">
+              <h3>Fatimah K., Student</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            "The environment here is so peaceful and respectful. I always feel
+            supported and encouraged in my learning."
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="/Images/banner2.jpg" alt="Student testimonial" />
+            <div class="testimonial-info">
+              <h3>Yusuf A., Student</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            "I love the small class sizes and personal attention. Memorizing
+            Qur’an is no longer overwhelming—it’s a journey I enjoy."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--CTA section-->
+
+    <section class="cta">
+      <h1>Our Learning Environment</h1>
+      <p>
+        Our learning environment is rooted in kindness, respect, and sincerity.
+        We believe students learn best when they feel safe, valued, and
+        spiritually supported.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="" class="hero-btn">Enroll Now</a>
+        <a href="" class="hero-btn">Learn More</a>
+      </div>
+    </section>
+
+    <!--About us-->
+
+    <section class="about-us">
+      <h4>About Assharof Online Academy</h4>
+      <p>
+        We provide a supportive environment where students of all ages can
+        develop strong faith, good character, and a lifelong love for the
+        Qur’an. Our mission is to combine knowledge, spiritual growth, and moral
+        guidance to prepare learners for a meaningful and balanced Islamic life.
+      </p>
+      <div class="stars">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h4>Hoor Wa Noor Quranic School</h4>
+          <p>
+            Committed to nurturing hearts and minds through quality Qur’anic and
+            Islamic education. We provide a safe, supportive, and inspiring
+            environment for students of all ages.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>Address:Online</p>
+          <p>Phone: +234-9063394802</p>
+          <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          Design by Assharof &copy; Hoor Wa Noor Quranic School. All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!--Javascript for toggle menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
